@@ -1,7 +1,7 @@
 {
     "name": "testing-app",
     "type": "project",
-    "description": "Just a tets app",
+    "description": "An app to test various testing frameworks",
     "license": "MIT",
     "require": {
         "php": "7.1.*",
