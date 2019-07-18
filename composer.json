@@ -1,0 +1,22 @@
+{
+    "name": "testing-app",
+    "type": "project",
+    "description": "Just a tets app",
+    "license": "MIT",
+    "require": {
+        "php": "7.1.*",
+        "doctrine/orm": "^2.6"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^5.1",
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
